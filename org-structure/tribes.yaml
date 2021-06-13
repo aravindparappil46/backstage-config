@@ -6,7 +6,7 @@ metadata:
 spec:
   type: tribe
   profile:
-    displayName: Equalizer Tribezzzz
+    displayName: Equalizer Tribe
     email: equalizer@example.com
   parent: aviation
   children: [supercito, cloudhawks, dragonfly]

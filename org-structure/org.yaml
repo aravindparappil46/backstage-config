@@ -28,3 +28,14 @@ spec:
     - ./cloudhawks.yaml
     - ./domains.yaml
     - ./tribes.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: olga
+spec:
+  profile:
+    displayName: Olga Danchenko
+    email: olga@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/peadar-macmahon@example.com.svg?background=%23fff
+  memberOf: [dragonfly]
