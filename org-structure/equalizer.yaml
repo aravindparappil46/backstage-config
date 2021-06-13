@@ -4,7 +4,7 @@ metadata:
   name: equalizer
   description: Equalizer Tribe
 spec:
-  type: sub-department
+  type: department
   profile:
     displayName: Equalizer Tribe
     email: eqzr@example.com
