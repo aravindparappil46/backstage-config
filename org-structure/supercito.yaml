@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: supercito
-  description: Supercito Squad
+  description: Supercito Squad - Owners of BGA Portal
 spec:
   type: team
   profile:
-    email: nav@wfscorp.com
+    email: supercito@wfscorp.com
     picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
   parent: equalizer
   children: []

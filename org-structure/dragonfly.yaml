@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: dragonfly
-  description: Dragonfly Squad
+  description: Dragonfly Squad - Owners of fbo360
 spec:
   type: team
   profile:
@@ -14,7 +14,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: arun.chandrasekaran
+  name: arun
 spec:
   profile:
     displayName: Arun Chandrasekaran
@@ -25,7 +25,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: olga.danchenko
+  name: olga
 spec:
   profile:
     displayName: Olga Danchenko
