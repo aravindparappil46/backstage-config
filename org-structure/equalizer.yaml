@@ -10,4 +10,4 @@ spec:
     email: eqzr@example.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: wfscorp
-  children: [supercito, cloudhawks, dragonfly]
+  children: [subdept]

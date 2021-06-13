@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: subdept
+  description: A random sub-dept
+spec:
+  type: sub-department
+  profile:
+    displayName: Sub Department
+    email: sub@example.com
+    # Intentional no picture for testing
+  parent: equalizer
+  children: [supercito, cloudhawks, dragonfly]

@@ -27,3 +27,4 @@ spec:
     - ./supercito.yaml
     - ./cloudhawks.yaml
     - ./equalizer.yaml
+    - ./subdept.yaml
