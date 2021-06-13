@@ -4,9 +4,9 @@ metadata:
   name: equalizer
   description: Equalizer Tribe
 spec:
-  type: sub-department
+  type: tribe
   profile:
-    displayName: Equalizer Tribe
+    displayName: Equalizer Tribezzzz
     email: equalizer@example.com
   parent: aviation
   children: [supercito, cloudhawks, dragonfly]
