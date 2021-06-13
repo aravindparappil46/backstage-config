@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: equalizer
+  description: Equalizer Tribe
+spec:
+  type: sub-department
+  profile:
+    displayName: Equalizer Tribe
+    email: equalizer@example.com
+  parent: aviation
+  children: [supercito, cloudhawks, dragonfly]
