@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: wfscorp
+  description: World Fuel Services Corporation
+  links:
+    - url: https://www.wfscorp.com/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: World Fuel Services Corporation
+    email: info@example.com
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [equalizer]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: squads
+  description: Squads in WFS
+spec:
+  targets:
+    - ./dragonfly.yaml
+    - ./supercito.yaml
+    - ./cloudhawks.yaml
+    - ./equalizer.yaml

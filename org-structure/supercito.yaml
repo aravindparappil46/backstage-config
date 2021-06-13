@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: supercito
+  description: Supercito Squad
+spec:
+  type: team
+  profile:
+    email: nav@wfscorp.com
+    picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
+  parent: equalizer
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alejandro.c
+spec:
+  profile:
+    displayName: Alejandro Cuba Ruiz
+    email: acr@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/tara-macgovern@example.com.svg?background=%23fff
+  memberOf: [supercito]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: evan.kuhn
+spec:
+  profile:
+    displayName: Evan Kuhn
+    email: evan@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
+  memberOf: [supercito]
+---
+# This user is added as an example, to make it more easy for the "Guest"
+# sign-in option to demonstrate some entities being owned. In a regular org,
+# a guest user would probably not be registered like this.
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: guest
+spec:
+  profile:
+    displayName: Guest User
+    email: guest@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [supercito]
