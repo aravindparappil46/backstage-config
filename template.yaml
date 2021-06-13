@@ -8,7 +8,7 @@ metadata:
     - java
     - domain-api
 spec:
-  owner: cloudhawks@ownsthis.com
+  owner: aviators@ownthis.com
   type: api
   parameters:
     - title: Please provide the following information
@@ -46,8 +46,6 @@ spec:
       action: fetch:cookiecutter
       input:
         url: ./skeleton
-        copyWithoutRender:
-          - .github/workflows/*
         values:
           component_id: '{{ parameters.component_id }}'
           description: '{{ parameters.description }}'
