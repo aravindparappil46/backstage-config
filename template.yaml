@@ -27,7 +27,7 @@ spec:
         owner:
           title: Owner
           type: string
-          description: Owner of the component
+          description: Squad which owns this Domain API
           ui:field: OwnerPicker
     - title: Choose a location  
       required:
@@ -37,6 +37,9 @@ spec:
           title: Repository Location
           type: string
           ui:field: RepoUrlPicker
+          ui:options:
+            allowedHosts:
+              - bitbucket.org
   steps:
     - id: template
       name: Fetch Skeleton + Template
