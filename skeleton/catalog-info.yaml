@@ -108,12 +108,15 @@ spec:
           type: object
           required:
             - id
-            - name
+            - number
+            - customerAccount
           properties:
             id:
               type: integer
               format: int64
-            name:
+            number:
+              type: string
+            customerAccount:
               type: string
             tag:
               type: string
